@@ -61,6 +61,7 @@ class M_auth extends CI_Model
     {
         $nama           = htmlspecialchars($this->input->post('nama'));
         $no_telp        = htmlspecialchars($this->input->post('no_telp'));
+        $alamat        = htmlspecialchars($this->input->post('alamat'));
 
         $this->db->insert('tb_auth', $data_auth);
 
@@ -68,7 +69,8 @@ class M_auth extends CI_Model
             'user_id'   => $this->db->insert_id(),
             'nama'      => 'assets/images/profile.png',
             'nama'      => $nama,
-            'no_telp'   => $no_telp
+            'no_telp'   => $no_telp,
+            'alamat'   => $alamat,
         );
 
         $this->db->insert('tb_user', $data_user);

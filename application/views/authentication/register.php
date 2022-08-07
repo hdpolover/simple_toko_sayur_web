@@ -25,6 +25,12 @@
 
                 <div class="form-group row">
                     <div class="col-12">
+                        <textarea class="form-control" type="text" name="alamat" required placeholder="Alamat lengkap"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-12">
                         <input class="form-control" type="email" name="email" required placeholder="Email">
                     </div>
                 </div>
