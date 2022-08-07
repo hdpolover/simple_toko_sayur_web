@@ -395,7 +395,7 @@ CREATE TABLE `tb_settings` (
 INSERT INTO `tb_settings` (`key`, `value`, `desc`, `created_at`, `modified_at`, `is_deleted`) VALUES
 ('mailer_alias', 'Toko Sayur Indonesia', NULL, 1653641032, 0, 0),
 ('mailer_host', 'smtp.gmail.com', NULL, 1653641032, 0, 0),
-('mailer_mode', '3', NULL, 1653641032, 0, 0),
+('mailer_mode', '0', NULL, 1653641032, 0, 0),
 ('mailer_password', 'iifyzefowfvvppkk', NULL, 1653641032, 0, 0),
 ('mailer_port', '587', NULL, 1653641032, 0, 0),
 ('mailer_username', 'ngodingin.indonesia@gmail.com\r\n', NULL, 1653641032, 0, 0),
