@@ -59,6 +59,7 @@ class Authentication extends CI_Controller
                     'no_telp' => $user->no_telp,
                     'role'      => $user->role,
                     'logged_in' => true,
+                    'otp' => true,
                 );
 
                 $this->session->set_userdata($session_data);
